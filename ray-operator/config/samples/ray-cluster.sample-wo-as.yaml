@@ -5,7 +5,7 @@
 apiVersion: ray.io/v1
 kind: RayCluster
 metadata:
-  name: raycluster-sample
+  name: raycluster-sample-wo-as
 spec:
   rayVersion: '2.9.0' # should match the Ray version in the image of the containers
   # Ray head pod template
